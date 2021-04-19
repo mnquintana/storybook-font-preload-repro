@@ -1,3 +1,11 @@
 export default function Home() {
-  return <div>Hello World</div>
+  return (
+    <div
+      style={{
+        fontFamily: "Custom",
+      }}
+    >
+      Hello World
+    </div>
+  );
 }

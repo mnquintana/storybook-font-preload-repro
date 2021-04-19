@@ -1,17 +1,7 @@
-<!-- This fetch fails on Storybook 6.2, but should succeed -->
+<!-- This fetch fails on Storybook 6.2 production builds, but succeeds in dev -->
 <link
   rel="preload"
   href="/assets/fonts/Inter.woff2"
   as="font"
   type="font/woff2"
-  crossorigin
-/>
-
-<!-- This fetch succeeds on Storybook 6.2, but should fail -->
-<link
-  rel="preload"
-  href="/static/media/public/assets/fonts/Inter.woff2"
-  as="font"
-  type="font/woff2"
-  crossorigin
 />

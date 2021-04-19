@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Custom";
+
+  /* This had to change in Storybook 6.2. because `/assets/fonts/Inter.woff2` wouldn't resolve. */
+  src: url("../public/assets/fonts/Inter.woff2") format("woff2"),
+    url("../public/assets/fonts/Inter.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
